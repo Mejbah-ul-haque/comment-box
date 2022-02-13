@@ -7,4 +7,6 @@ document.getElementById('submit-button').addEventListener('click', function(){
     const commentContainer = document.getElementById('comment-container');
     commentContainer.appendChild(newComment);
 
-})
+    commentBox.value = '';
+
+});
