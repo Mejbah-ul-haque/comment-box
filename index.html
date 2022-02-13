@@ -7,9 +7,30 @@
     <title>Comment Box</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-center mt-56">
+<body class="m-auto w-3/4">
+    <header>
+        <h1 class="text-left font-bold text-4xl text-blue-600 my-20">This is a beautiful comment box</h1>
+    </header>
+    <section>
+        <article id="new-comment" class="">
+            <!-- comment  -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci, consequuntur alias quas laudantium praesentium sunt maxime illum et ratione assumenda ea at totam itaque inventore aut quia quaerat cum!</p>
+            <br>
+            <p>Soluta doloremque dolorum quasi rerum excepturi provident ipsa perferendis hic cum tenetur error ex magnam, perspiciatis labore consequatur accusantium voluptates doloribus dignissimos dolorem corrupti? Exercitationem corporis molestiae dicta rem fugiat.</p>
+
+            <!-- comment box -->
+            <div class="mt-5">
+                <h1 class="font-bold text-xl my-2">Comment please!</h1>
+                <textarea name="" id="comment-box" class="border border-blue-600" cols="100" rows="6"></textarea>
+            </div>
+            
+
+            <!-- submit button -->
+            <button id="submit-button" class=" text-white py-2 my-2  font-bold border-2 border-blue-900 "><span class="bg-blue-900 py-1 px-4 m-2">Submit</span></button>
+        </article>
+    </section>
     
-    <button id="bg-darkblue-button" class=" text-white py-3 m-2 rounded-3xl font-bold border-2 border-blue-900 "><span class="bg-blue-900 py-2 px-4 rounded-3xl m-2">Darkblue</span></button>
+    
 
 
     <script>
